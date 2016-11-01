@@ -1,0 +1,8 @@
+include_recipe "privoxy::package"
+include_recipe "privoxy::unit"
+include_recipe "privoxy::systemd"
+include_recipe "privoxy::config"
+include_recipe "privoxy::user_agent"
+include_recipe "privoxy::service"
+include_recipe "privoxy::permissions"
+include_recipe "privoxy::restart"
